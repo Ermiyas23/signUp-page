@@ -1,8 +1,36 @@
+*{
+    margin: 0;
+}
 .container{
     display: flex;
-    flex-direction: column;
 }
+.img{
+    display: flex;
+    background-image: url('jennifer-uppendahl-E39Ngkp6x_Q-unsplash.jpg');
+    width: 70%;
+    height: 900px;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; 
+}
+
 .form{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+     
+}
+.head{
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 4rem 4rem 8rem;
+    text-wrap: wrap;
+    background-color: rgb(240,248,255);
+    line-height: 1; 
+}
+p{
+    font-size: 20px;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+.form-box{
+    display: flex;
 }
