@@ -26,11 +26,46 @@
     background-color: rgb(240,248,255);
     line-height: 1; 
 }
-p{
+.head > p{
     font-size: 20px;
     margin-top: 3rem;
     font-weight: bold;
 }
 .form-box{
     display: flex;
+    flex-direction: column;
 }
+.form-box > h1{
+    margin:1rem 0rem 0rem 8rem;
+} 
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem 0 8rem;
+}
+.name-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 1.5rem 8rem;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8rem 0 8rem;
+}
+.inform{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 1.5rem 8rem;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5.5rem 0 8rem;
+}
+.confirm{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 0 8rem;
+}
+
