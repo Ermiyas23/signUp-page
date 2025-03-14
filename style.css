@@ -1,10 +1,19 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Bold.woff2') format('woff2'),
+        url('Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     margin: 0;
 }
 .container{
     display: flex;
 }
-.img{
+.img-box{
     display: flex;
     background-image: url('jennifer-uppendahl-E39Ngkp6x_Q-unsplash.jpg');
     width: 70%;
@@ -12,10 +21,16 @@
     background-size: cover; /* Ensures the image covers the entire element */
     background-position: center; 
 }
-.img > img{
-    margin: 8rem 0 0 0;
-    width :25%;
-    height: 150px;
+.odin > img{
+    margin: 8rem 0 0 4rem;
+    width :30%;
+    height: 130px;
+}
+.odin > span{
+    color:white;
+    font-size: 6rem;
+    margin: 6rem 0 0 0;
+    font-family:'Norse';
 }
 
 .form{
