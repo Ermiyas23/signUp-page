@@ -102,6 +102,7 @@ img{
     margin: 0 4rem 2rem 8rem;
 }
 .bottom{
+    border-top:5px ridge whitesmoke ;
     display:flex;
     background-color: whitesmoke;
     flex-direction: column;
@@ -139,4 +140,6 @@ input {
   input:invalid{
     border-color:red;
   }
-  
+  .bottom > p >a:link{
+color:#596D48;
+  }
