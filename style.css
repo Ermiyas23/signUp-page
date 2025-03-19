@@ -56,7 +56,7 @@ img{
     align-items: center;
     padding: 4rem 4rem 4rem 8rem;
     text-wrap: wrap;
-    background-color: rgb(240,248,255);
+    background-color: whitesmoke;
     line-height: 1; 
 }
 .head > p{
@@ -103,7 +103,7 @@ img{
 }
 .bottom{
     display:flex;
-    background-color: rgb(240,248,255);
+    background-color: whitesmoke;
     flex-direction: column;
     height: 22.3rem;
 }
