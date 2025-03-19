@@ -119,6 +119,7 @@ div > button{
     line-height: 1px;
     border-radius: 10px;
     background-color: #596D48;
+    color:white;
 }
 .bottom > p{
     margin:2rem 0rem 0rem 8rem;
