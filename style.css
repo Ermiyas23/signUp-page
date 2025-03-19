@@ -21,21 +21,29 @@
     background-size: cover; 
     background-position: center; 
 }
-.odin{
-    display: flex;   
+.img-box > div{
+    justify-content: center;
+    align-items: center; 
+    margin: 8rem 0 0 0;
 }
-
-
-.odin > img{
-    margin: 8rem 0rem 0rem 4rem;
+.odin{
+    display: flex;
+    background-color:  rgba(0, 0, 0, 0.5);
+    padding:0rem 6rem 5rem 4rem;
+    height: 100px;
+}
+img{
+    margin: 2rem 0rem 0rem 4rem;
     width :40%;
     height: 130px;
+    display: inline-flex;
 }
 .odin > div{
     color:white;
     font-size: 5rem;
-    margin: 10rem 0rem 0rem 0rem;
+    margin: 5rem 0rem 0rem 0rem;
     font-family:'Norse';
+    display: inline-flex;
 }
 
 .form{
